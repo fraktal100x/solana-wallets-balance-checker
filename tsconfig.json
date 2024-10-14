@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true, // This ensures any missing type declarations won't cause compilation errors
+    "resolveJsonModule": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "types": ["node"]
+  }
+}
